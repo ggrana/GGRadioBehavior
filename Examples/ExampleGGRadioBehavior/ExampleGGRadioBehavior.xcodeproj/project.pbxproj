@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC79E2391711F5C1008411CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC79E2381711F5C1008411CD /* UIKit.framework */; };
+		EC79E23B1711F5C1008411CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC79E23A1711F5C1008411CD /* Foundation.framework */; };
+		EC79E23D1711F5C1008411CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC79E23C1711F5C1008411CD /* CoreGraphics.framework */; };
+		EC79E2431711F5C1008411CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC79E2411711F5C1008411CD /* InfoPlist.strings */; };
+		EC79E2451711F5C1008411CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79E2441711F5C1008411CD /* main.m */; };
+		EC79E2491711F5C1008411CD /* GGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79E2481711F5C1008411CD /* GGAppDelegate.m */; };
+		EC79E24B1711F5C1008411CD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC79E24A1711F5C1008411CD /* Default.png */; };
+		EC79E24D1711F5C1008411CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC79E24C1711F5C1008411CD /* Default@2x.png */; };
+		EC79E24F1711F5C1008411CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC79E24E1711F5C1008411CD /* Default-568h@2x.png */; };
+		EC79E2521711F5C1008411CD /* GGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79E2511711F5C1008411CD /* GGViewController.m */; };
+		EC79E2551711F5C1008411CD /* GGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC79E2531711F5C1008411CD /* GGViewController.xib */; };
+		EC79E25E1711FC1C008411CD /* GGRadioBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79E25D1711FC1C008411CD /* GGRadioBehavior.m */; };
+		EC79E2611711FCA3008411CD /* GGRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79E2601711FCA3008411CD /* GGRadioButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC79E2351711F5C1008411CD /* ExampleGGRadioBehavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleGGRadioBehavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79E2381711F5C1008411CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC79E23A1711F5C1008411CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC79E23C1711F5C1008411CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC79E2401711F5C1008411CD /* ExampleGGRadioBehavior-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleGGRadioBehavior-Info.plist"; sourceTree = "<group>"; };
+		EC79E2421711F5C1008411CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC79E2441711F5C1008411CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC79E2461711F5C1008411CD /* ExampleGGRadioBehavior-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleGGRadioBehavior-Prefix.pch"; sourceTree = "<group>"; };
+		EC79E2471711F5C1008411CD /* GGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAppDelegate.h; sourceTree = "<group>"; };
+		EC79E2481711F5C1008411CD /* GGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAppDelegate.m; sourceTree = "<group>"; };
+		EC79E24A1711F5C1008411CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC79E24C1711F5C1008411CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC79E24E1711F5C1008411CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC79E2501711F5C1008411CD /* GGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGViewController.h; sourceTree = "<group>"; };
+		EC79E2511711F5C1008411CD /* GGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGViewController.m; sourceTree = "<group>"; };
+		EC79E2541711F5C1008411CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GGViewController.xib; sourceTree = "<group>"; };
+		EC79E25C1711FC1C008411CD /* GGRadioBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRadioBehavior.h; sourceTree = "<group>"; };
+		EC79E25D1711FC1C008411CD /* GGRadioBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRadioBehavior.m; sourceTree = "<group>"; };
+		EC79E25F1711FCA3008411CD /* GGRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGRadioButton.h; sourceTree = "<group>"; };
+		EC79E2601711FCA3008411CD /* GGRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGRadioButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC79E2321711F5C1008411CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79E2391711F5C1008411CD /* UIKit.framework in Frameworks */,
+				EC79E23B1711F5C1008411CD /* Foundation.framework in Frameworks */,
+				EC79E23D1711F5C1008411CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC79E22C1711F5C1008411CD = {
+			isa = PBXGroup;
+			children = (
+				EC79E23E1711F5C1008411CD /* ExampleGGRadioBehavior */,
+				EC79E2371711F5C1008411CD /* Frameworks */,
+				EC79E2361711F5C1008411CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC79E2361711F5C1008411CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC79E2351711F5C1008411CD /* ExampleGGRadioBehavior.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC79E2371711F5C1008411CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC79E2381711F5C1008411CD /* UIKit.framework */,
+				EC79E23A1711F5C1008411CD /* Foundation.framework */,
+				EC79E23C1711F5C1008411CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC79E23E1711F5C1008411CD /* ExampleGGRadioBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				EC79E25B1711FBF0008411CD /* GGRadioBehavior */,
+				EC79E2471711F5C1008411CD /* GGAppDelegate.h */,
+				EC79E2481711F5C1008411CD /* GGAppDelegate.m */,
+				EC79E2501711F5C1008411CD /* GGViewController.h */,
+				EC79E2511711F5C1008411CD /* GGViewController.m */,
+				EC79E2531711F5C1008411CD /* GGViewController.xib */,
+				EC79E23F1711F5C1008411CD /* Supporting Files */,
+			);
+			path = ExampleGGRadioBehavior;
+			sourceTree = "<group>";
+		};
+		EC79E23F1711F5C1008411CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC79E2401711F5C1008411CD /* ExampleGGRadioBehavior-Info.plist */,
+				EC79E2411711F5C1008411CD /* InfoPlist.strings */,
+				EC79E2441711F5C1008411CD /* main.m */,
+				EC79E2461711F5C1008411CD /* ExampleGGRadioBehavior-Prefix.pch */,
+				EC79E24A1711F5C1008411CD /* Default.png */,
+				EC79E24C1711F5C1008411CD /* Default@2x.png */,
+				EC79E24E1711F5C1008411CD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC79E25B1711FBF0008411CD /* GGRadioBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				EC79E25C1711FC1C008411CD /* GGRadioBehavior.h */,
+				EC79E25D1711FC1C008411CD /* GGRadioBehavior.m */,
+				EC79E25F1711FCA3008411CD /* GGRadioButton.h */,
+				EC79E2601711FCA3008411CD /* GGRadioButton.m */,
+			);
+			name = GGRadioBehavior;
+			path = ../../../GGRadioBehavior;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC79E2341711F5C1008411CD /* ExampleGGRadioBehavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79E2581711F5C1008411CD /* Build configuration list for PBXNativeTarget "ExampleGGRadioBehavior" */;
+			buildPhases = (
+				EC79E2311711F5C1008411CD /* Sources */,
+				EC79E2321711F5C1008411CD /* Frameworks */,
+				EC79E2331711F5C1008411CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleGGRadioBehavior;
+			productName = ExampleGGRadioBehavior;
+			productReference = EC79E2351711F5C1008411CD /* ExampleGGRadioBehavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC79E22D1711F5C1008411CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Gustavo Graña";
+			};
+			buildConfigurationList = EC79E2301711F5C1008411CD /* Build configuration list for PBXProject "ExampleGGRadioBehavior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC79E22C1711F5C1008411CD;
+			productRefGroup = EC79E2361711F5C1008411CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC79E2341711F5C1008411CD /* ExampleGGRadioBehavior */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC79E2331711F5C1008411CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79E2431711F5C1008411CD /* InfoPlist.strings in Resources */,
+				EC79E24B1711F5C1008411CD /* Default.png in Resources */,
+				EC79E24D1711F5C1008411CD /* Default@2x.png in Resources */,
+				EC79E24F1711F5C1008411CD /* Default-568h@2x.png in Resources */,
+				EC79E2551711F5C1008411CD /* GGViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC79E2311711F5C1008411CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79E2451711F5C1008411CD /* main.m in Sources */,
+				EC79E2491711F5C1008411CD /* GGAppDelegate.m in Sources */,
+				EC79E2521711F5C1008411CD /* GGViewController.m in Sources */,
+				EC79E25E1711FC1C008411CD /* GGRadioBehavior.m in Sources */,
+				EC79E2611711FCA3008411CD /* GGRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC79E2411711F5C1008411CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79E2421711F5C1008411CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC79E2531711F5C1008411CD /* GGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79E2541711F5C1008411CD /* en */,
+			);
+			name = GGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC79E2561711F5C1008411CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EC79E2571711F5C1008411CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC79E2591711F5C1008411CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleGGRadioBehavior/ExampleGGRadioBehavior-Prefix.pch";
+				INFOPLIST_FILE = "ExampleGGRadioBehavior/ExampleGGRadioBehavior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC79E25A1711F5C1008411CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleGGRadioBehavior/ExampleGGRadioBehavior-Prefix.pch";
+				INFOPLIST_FILE = "ExampleGGRadioBehavior/ExampleGGRadioBehavior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC79E2301711F5C1008411CD /* Build configuration list for PBXProject "ExampleGGRadioBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79E2561711F5C1008411CD /* Debug */,
+				EC79E2571711F5C1008411CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79E2581711F5C1008411CD /* Build configuration list for PBXNativeTarget "ExampleGGRadioBehavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79E2591711F5C1008411CD /* Debug */,
+				EC79E25A1711F5C1008411CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC79E22D1711F5C1008411CD /* Project object */;
+}
