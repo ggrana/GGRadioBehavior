@@ -48,4 +48,9 @@
     }
 }
 
+- (void) clear {
+    [radioSelected setSelected:NO];
+    radioSelected = nil;
+}
+
 @end
