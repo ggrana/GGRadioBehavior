@@ -11,6 +11,6 @@
 
 - (void) addButton:(UIButton*) btn;
 - (void) removeButton:(UIButton*) btn;
-
+- (void) clear;
 
 @end
